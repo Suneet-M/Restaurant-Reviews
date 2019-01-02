@@ -28,6 +28,9 @@ a:hover, a:focus {
 a img {
 	border: none 0px #fff;
 }
+img, embed, video {
+  max-width: 100%;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px;
@@ -210,15 +213,14 @@ nav h1 a {
 #restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
-  font-size: 20pt;
+  font-size: 1.6em;
   font-weight: 200;
-  letter-spacing: 0;
   margin: 15px 0 30px;
   text-transform: uppercase;
   line-height: 1.1;
 }
 #restaurant-img {
-	width: 90%;
+  border-radius: 10% 0;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -228,19 +230,18 @@ nav h1 a {
   background-color: #333;
   color: #ddd;
   font-size: 12pt;
-  font-weight: 300;
   letter-spacing: 10px;
-  margin: 0 0 20px;
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-	width: 90%;
+	width: 60%;
+  margin: 0;
+  border-radius: 20px;
 }
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
-  width: 50%;
+  padding: 20px 20px 30px;
 }
 #reviews-container {
   padding: 30px 40px 80px;
