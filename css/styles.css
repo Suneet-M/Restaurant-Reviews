@@ -38,7 +38,6 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
-  padding: 20px 10px 0;
 }
 #footer {
   background-color: #444;
@@ -136,7 +135,7 @@ nav h1 a {
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
-  padding: 30px 15px 60px;
+  padding: 20px 0 60px;
   text-align: center;
 }
 #restaurants-list li {
