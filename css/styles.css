@@ -299,3 +299,11 @@ nav h1 a {
   font-size: 1.1em;
   text-align: justify;
 }
+
+/* ====================== Media Queries ====================== */
+@media screen and (min-width: 500px) {
+  #restaurants-list li {
+    width: 500px;
+    margin: 15px auto;
+  }
+}
