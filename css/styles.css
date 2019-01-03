@@ -301,9 +301,12 @@ nav h1 a {
 }
 
 /* ====================== Media Queries ====================== */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 480px) {
+  nav h1 a {
+    font-size: 1em;
+  }
   #restaurants-list li {
-    width: 500px;
+    width: 450px;
     margin: 15px auto;
   }
 }
