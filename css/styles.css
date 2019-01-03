@@ -313,6 +313,17 @@ nav h1 a {
     width: 440px;
     margin: 0 auto;
   }
+  #restaurant-container #restaurant-cuisine {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 550px) {
+  #restaurant-container #restaurant-img {
+    width: 510px;
+  }
+  #restaurant-container #restaurant-cuisine {
+    width: 255px;
+  }
 }
 @media screen and (min-width: 650px) {
   nav h1 a {
