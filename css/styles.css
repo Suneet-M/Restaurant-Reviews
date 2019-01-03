@@ -344,3 +344,16 @@ nav h1 a {
     border-radius: 25px;
   }
 }
+@media screen and (min-width: 750px) {
+  #reviews-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0;
+    border: 0;
+  }
+  #reviews-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
