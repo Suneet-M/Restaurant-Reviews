@@ -309,4 +309,8 @@ nav h1 a {
     width: 450px;
     margin: 15px auto;
   }
+  #reviews-container {
+    width: 440px;
+    margin: 0 auto;
+  }
 }
