@@ -258,6 +258,7 @@ nav h1 a {
   border: 2px solid #f3f3f3;
   display: block;
   margin: 0 0 30px;
+  height: fit-content;
   overflow: hidden;
   border-radius: 25px 0;
 }
