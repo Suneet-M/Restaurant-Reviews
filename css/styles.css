@@ -376,3 +376,8 @@ nav h1 a {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+@media screen and (min-width: 1250px) {
+  #restaurants-list {
+    width: 1100px;
+  }
+}
