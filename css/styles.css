@@ -360,3 +360,19 @@ nav h1 a {
     grid-gap: 30px;
   }
 }
+@media screen and (min-width: 1000px) {
+  nav h1 a {
+    letter-spacing: 0.5em;
+  }
+  .inside #map-container {
+    height: 70vh;
+  }
+  #restaurants-list,
+  #reviews-container {
+    width: 90%;
+  }
+  #restaurants-list,
+  #reviews-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
