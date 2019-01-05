@@ -188,6 +188,9 @@ nav h1 a {
   text-decoration: none;
   text-transform: uppercase;
 }
+#restaurants-list li a:focus {
+  border: 0;
+}
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
